@@ -1,0 +1,9 @@
+numpy
+pandas
+tensorflow
+matplotlib
+seaborn
+scikit-learn
+scikit-fuzzy
+kaggle
+networkx

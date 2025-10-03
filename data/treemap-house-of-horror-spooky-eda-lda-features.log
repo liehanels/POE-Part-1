@@ -1,0 +1,903 @@
+[{"stream_name":"stderr","time":5.350087955,"data":"\n"}
+,{"stream_name":"stderr","time":5.350153843,"data":"\n"}
+,{"stream_name":"stderr","time":5.350162652,"data":"processing file: script.Rmd\n"}
+,{"stream_name":"stdout","time":5.513160766,"data":"\r  |                                                                       \r  |                                                                 |   0%\r  |                                                                       \r  |                                                                 |   1%\n"}
+,{"stream_name":"stdout","time":5.513354423,"data":"   inline R code fragments\n"}
+,{"stream_name":"stdout","time":5.513498137,"data":"\n"}
+,{"stream_name":"stdout","time":5.540591028,"data":"\r  |                                                                       \r  |.                                                                |   1%\n"}
+,{"stream_name":"stdout","time":5.542034744,"data":"label: setup (with options) \n"}
+,{"stream_name":"stdout","time":5.545872317,"data":"List of 2\n"}
+,{"stream_name":"stdout","time":5.54782492,"data":" $ include: logi FALSE\n"}
+,{"stream_name":"stdout","time":5.5484432550000005,"data":" $ echo   : logi FALSE\n"}
+,{"stream_name":"stdout","time":5.54846951,"data":"\n"}
+,{"stream_name":"stdout","time":5.640440068,"data":"\r  |                                                                       \r  |.                                                                |   2%\n"}
+,{"stream_name":"stdout","time":5.640497,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":5.64050494,"data":"\n"}
+,{"stream_name":"stdout","time":5.658546686,"data":"\r  |                                                                       \r  |..                                                               |   2%\n"}
+,{"stream_name":"stdout","time":5.798728108,"data":"label: unnamed-chunk-1 (with options) \n"}
+,{"stream_name":"stdout","time":5.798946621,"data":"List of 1\n"}
+,{"stream_name":"stdout","time":5.799938807,"data":" $ message: logi FALSE\n"}
+,{"stream_name":"stdout","time":5.799968607,"data":"\n"}
+,{"stream_name":"stderr","time":6.675028957,"data":"corrplot 0.84 loaded\n"}
+,{"stream_name":"stderr","time":6.861966724,"data":"\n"}
+,{"stream_name":"stderr","time":6.8620126280000004,"data":"Attaching package: 'dplyr'\n"}
+,{"stream_name":"stderr","time":6.862020452,"data":"\n"}
+,{"stream_name":"stderr","time":6.863257011,"data":"The following object is masked from 'package:gridExtra':\n"}
+,{"stream_name":"stderr","time":6.863296952,"data":"\n"}
+,{"stream_name":"stderr","time":6.863303396,"data":"    combine\n"}
+,{"stream_name":"stderr","time":6.863308973,"data":"\n"}
+,{"stream_name":"stderr","time":6.86468064,"data":"The following objects are masked from 'package:stats':\n"}
+,{"stream_name":"stderr","time":6.86471063,"data":"\n"}
+,{"stream_name":"stderr","time":6.864717231,"data":"    filter, lag\n"}
+,{"stream_name":"stderr","time":6.864722846,"data":"\n"}
+,{"stream_name":"stderr","time":6.867821396,"data":"The following objects are masked from 'package:base':\n"}
+,{"stream_name":"stderr","time":6.867857814,"data":"\n"}
+,{"stream_name":"stderr","time":6.867866071,"data":"    intersect, setdiff, setequal, union\n"}
+,{"stream_name":"stderr","time":6.86787195,"data":"\n"}
+,{"stream_name":"stderr","time":6.934843719,"data":"\n"}
+,{"stream_name":"stderr","time":6.934896103,"data":"Attaching package: 'readr'\n"}
+,{"stream_name":"stderr","time":6.934903815,"data":"\n"}
+,{"stream_name":"stderr","time":6.935315342,"data":"The following object is masked from 'package:scales':\n"}
+,{"stream_name":"stderr","time":6.9353529720000004,"data":"\n"}
+,{"stream_name":"stderr","time":6.935358821,"data":"    col_factor\n"}
+,{"stream_name":"stderr","time":6.935363594,"data":"\n"}
+,{"stream_name":"stderr","time":7.047933811,"data":"\n"}
+,{"stream_name":"stderr","time":7.047985285,"data":"Attaching package: 'data.table'\n"}
+,{"stream_name":"stderr","time":7.047993362,"data":"\n"}
+,{"stream_name":"stderr","time":7.048349127,"data":"The following objects are masked from 'package:dplyr':\n"}
+,{"stream_name":"stderr","time":7.048368817,"data":"\n"}
+,{"stream_name":"stderr","time":7.048375464,"data":"    between, first, last\n"}
+,{"stream_name":"stderr","time":7.048380682,"data":"\n"}
+,{"stream_name":"stderr","time":7.787452309,"data":"\n"}
+,{"stream_name":"stderr","time":7.787531141,"data":"Attaching package: 'purrr'\n"}
+,{"stream_name":"stderr","time":7.787542086,"data":"\n"}
+,{"stream_name":"stderr","time":7.787880483,"data":"The following objects are masked from 'package:lazyeval':\n"}
+,{"stream_name":"stderr","time":7.787904875,"data":"\n"}
+,{"stream_name":"stderr","time":7.7879111850000005,"data":"    is_atomic, is_formula\n"}
+,{"stream_name":"stderr","time":7.78791618,"data":"\n"}
+,{"stream_name":"stderr","time":7.788983116,"data":"The following object is masked from 'package:data.table':\n"}
+,{"stream_name":"stderr","time":7.789024154,"data":"\n"}
+,{"stream_name":"stderr","time":7.789031332,"data":"    transpose\n"}
+,{"stream_name":"stderr","time":7.789036427,"data":"\n"}
+,{"stream_name":"stderr","time":7.789932312,"data":"The following object is masked from 'package:scales':\n"}
+,{"stream_name":"stderr","time":7.789958339,"data":"\n"}
+,{"stream_name":"stderr","time":7.789964074,"data":"    discard\n"}
+,{"stream_name":"stderr","time":7.789968666,"data":"\n"}
+,{"stream_name":"stderr","time":7.808707409,"data":"\n"}
+,{"stream_name":"stderr","time":7.808822988,"data":"Attaching package: 'reshape2'\n"}
+,{"stream_name":"stderr","time":7.808840909,"data":"\n"}
+,{"stream_name":"stderr","time":7.809160584,"data":"The following object is masked from 'package:tidyr':\n"}
+,{"stream_name":"stderr","time":7.809190752,"data":"\n"}
+,{"stream_name":"stderr","time":7.809197407,"data":"    smiths\n"}
+,{"stream_name":"stderr","time":7.80920259,"data":"\n"}
+,{"stream_name":"stderr","time":7.809907473,"data":"The following objects are masked from 'package:data.table':\n"}
+,{"stream_name":"stderr","time":7.809931971,"data":"\n"}
+,{"stream_name":"stderr","time":7.80993872,"data":"    dcast, melt\n"}
+,{"stream_name":"stderr","time":7.809944669,"data":"\n"}
+,{"stream_name":"stderr","time":9.142299118,"data":"Loading required package: NLP\n"}
+,{"stream_name":"stderr","time":9.174822604,"data":"\n"}
+,{"stream_name":"stderr","time":9.17486824,"data":"Attaching package: 'NLP'\n"}
+,{"stream_name":"stderr","time":9.174874937,"data":"\n"}
+,{"stream_name":"stderr","time":9.175474339,"data":"The following object is masked from 'package:ggplot2':\n"}
+,{"stream_name":"stderr","time":9.175497705,"data":"\n"}
+,{"stream_name":"stderr","time":9.175503485,"data":"    annotate\n"}
+,{"stream_name":"stderr","time":9.175509139,"data":"\n"}
+,{"stream_name":"stderr","time":9.542863078,"data":"Loading required package: methods\n"}
+,{"stream_name":"stderr","time":9.697118351,"data":"\n"}
+,{"stream_name":"stderr","time":9.697172765,"data":"Attaching package: 'igraph'\n"}
+,{"stream_name":"stderr","time":9.697200639,"data":"\n"}
+,{"stream_name":"stderr","time":9.697808206,"data":"The following objects are masked from 'package:purrr':\n"}
+,{"stream_name":"stderr","time":9.697842789,"data":"\n"}
+,{"stream_name":"stderr","time":9.6978497,"data":"    compose, simplify\n"}
+,{"stream_name":"stderr","time":9.697855347,"data":"\n"}
+,{"stream_name":"stderr","time":9.699298538,"data":"The following object is masked from 'package:tidyr':\n"}
+,{"stream_name":"stderr","time":9.699333875,"data":"\n"}
+,{"stream_name":"stderr","time":9.6993411,"data":"    crossing\n"}
+,{"stream_name":"stderr","time":9.699346476,"data":"\n"}
+,{"stream_name":"stderr","time":9.699849951000001,"data":"The following object is masked from 'package:tibble':\n"}
+,{"stream_name":"stderr","time":9.699886507,"data":"\n"}
+,{"stream_name":"stderr","time":9.699893355,"data":"    as_data_frame\n"}
+,{"stream_name":"stderr","time":9.699899209,"data":"\n"}
+,{"stream_name":"stderr","time":9.700708873,"data":"The following objects are masked from 'package:dplyr':\n"}
+,{"stream_name":"stderr","time":9.700739202,"data":"\n"}
+,{"stream_name":"stderr","time":9.700751782,"data":"    as_data_frame, groups, union\n"}
+,{"stream_name":"stderr","time":9.700804814,"data":"\n"}
+,{"stream_name":"stderr","time":9.70217597,"data":"The following objects are masked from 'package:stats':\n"}
+,{"stream_name":"stderr","time":9.702200217,"data":"\n"}
+,{"stream_name":"stderr","time":9.702206246,"data":"    decompose, spectrum\n"}
+,{"stream_name":"stderr","time":9.702211828,"data":"\n"}
+,{"stream_name":"stderr","time":9.706473867,"data":"The following object is masked from 'package:base':\n"}
+,{"stream_name":"stderr","time":9.706508334,"data":"\n"}
+,{"stream_name":"stderr","time":9.706515574,"data":"    union\n"}
+,{"stream_name":"stderr","time":9.706520719,"data":"\n"}
+,{"stream_name":"stderr","time":10.326049644,"data":"\n"}
+,{"stream_name":"stderr","time":10.326112995,"data":"Attaching package: 'Matrix'\n"}
+,{"stream_name":"stderr","time":10.326155058,"data":"\n"}
+,{"stream_name":"stderr","time":10.32659407,"data":"The following object is masked from 'package:tidyr':\n"}
+,{"stream_name":"stderr","time":10.32661373,"data":"\n"}
+,{"stream_name":"stderr","time":10.32662696,"data":"    expand\n"}
+,{"stream_name":"stderr","time":10.326632371,"data":"\n"}
+,{"stream_name":"stderr","time":10.416282333,"data":"\n"}
+,{"stream_name":"stderr","time":10.416332951,"data":"Attaching package: 'xgboost'\n"}
+,{"stream_name":"stderr","time":10.416340989,"data":"\n"}
+,{"stream_name":"stderr","time":10.417064961,"data":"The following object is masked from 'package:dplyr':\n"}
+,{"stream_name":"stderr","time":10.417096221,"data":"\n"}
+,{"stream_name":"stderr","time":10.417105034,"data":"    slice\n"}
+,{"stream_name":"stderr","time":10.417112619,"data":"\n"}
+,{"stream_name":"stderr","time":10.437836926,"data":"Loading required package: lattice\n"}
+,{"stream_name":"stderr","time":12.720721920999999,"data":"\n"}
+,{"stream_name":"stderr","time":12.720810777,"data":"Attaching package: 'caret'\n"}
+,{"stream_name":"stderr","time":12.720820903,"data":"\n"}
+,{"stream_name":"stderr","time":12.7211874,"data":"The following object is masked from 'package:purrr':\n"}
+,{"stream_name":"stderr","time":12.721265555,"data":"\n"}
+,{"stream_name":"stderr","time":12.72127376,"data":"    lift\n"}
+,{"stream_name":"stderr","time":12.721279716,"data":"\n"}
+,{"stream_name":"stderr","time":12.79078466,"data":"\n"}
+,{"stream_name":"stderr","time":12.790851123,"data":"Attaching package: 'treemapify'\n"}
+,{"stream_name":"stderr","time":12.790860187,"data":"\n"}
+,{"stream_name":"stderr","time":12.791530904,"data":"The following object is masked from 'package:ggraph':\n"}
+,{"stream_name":"stderr","time":12.791562695,"data":"\n"}
+,{"stream_name":"stderr","time":12.791570442,"data":"    geom_treemap\n"}
+,{"stream_name":"stderr","time":12.791774892,"data":"\n"}
+,{"stream_name":"stdout","time":12.803829625,"data":"\r  |                                                                       \r  |..                                                               |   3%\n"}
+,{"stream_name":"stdout","time":12.80388631,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":12.803893811,"data":"\n"}
+,{"stream_name":"stdout","time":12.804065583,"data":"\n"}
+,{"stream_name":"stdout","time":12.805232264,"data":"label: unnamed-chunk-2\n"}
+,{"stream_name":"stdout","time":12.830505479,"data":"\r  |                                                                       \r  |...                                                              |   4%\n"}
+,{"stream_name":"stdout","time":12.830567258,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":12.83057663,"data":"\n"}
+,{"stream_name":"stdout","time":12.830942289,"data":"\r  |                                                                       \r  |...                                                              |   5%\n"}
+,{"stream_name":"stdout","time":12.832084622,"data":"label: unnamed-chunk-3 (with options) \n"}
+,{"stream_name":"stdout","time":12.832413321,"data":"List of 1\n"}
+,{"stream_name":"stdout","time":12.833462318,"data":" $ echo: logi FALSE\n"}
+,{"stream_name":"stdout","time":12.833488943999999,"data":"\n"}
+,{"stream_name":"stdout","time":13.055454,"data":"\n"}
+,{"stream_name":"stdout","time":13.055508633,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":13.05552678,"data":"\n"}
+,{"stream_name":"stdout","time":13.055532804,"data":"\r  |                                                                       \r  |....                                                             |   6%\n"}
+,{"stream_name":"stdout","time":13.056780375,"data":"label: unnamed-chunk-4 (with options) \n"}
+,{"stream_name":"stdout","time":13.057234997,"data":"List of 2\n"}
+,{"stream_name":"stdout","time":13.058673737,"data":" $ warning: logi FALSE\n"}
+,{"stream_name":"stdout","time":13.059790848,"data":" $ results: logi FALSE\n"}
+,{"stream_name":"stdout","time":13.059817851,"data":"\n"}
+,{"stream_name":"stdout","time":13.630351656,"data":"\n"}
+,{"stream_name":"stdout","time":13.630463831,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":13.63047354,"data":"\n"}
+,{"stream_name":"stdout","time":13.630482835,"data":"\r  |                                                                       \r  |.....                                                            |   7%\n"}
+,{"stream_name":"stdout","time":13.631598,"data":"label: unnamed-chunk-5\n"}
+,{"stream_name":"stdout","time":13.662511871,"data":"\r  |                                                                       \r  |.....                                                            |   8%\n"}
+,{"stream_name":"stdout","time":13.662584641,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":13.662593136,"data":"\n"}
+,{"stream_name":"stdout","time":13.663004997,"data":"\n"}
+,{"stream_name":"stdout","time":13.664564447,"data":"label: unnamed-chunk-6\n"}
+,{"stream_name":"stdout","time":13.67785977,"data":"\r  |                                                                       \r  |......                                                           |   9%\n"}
+,{"stream_name":"stdout","time":13.67799923,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":13.678034127,"data":"\n"}
+,{"stream_name":"stdout","time":13.678169687,"data":"\n"}
+,{"stream_name":"stdout","time":13.679087164,"data":"label: unnamed-chunk-7\n"}
+,{"stream_name":"stdout","time":13.703622366,"data":"\r  |                                                                       \r  |......                                                           |  10%\n"}
+,{"stream_name":"stdout","time":13.703683592,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":13.703692272,"data":"\n"}
+,{"stream_name":"stdout","time":13.703823846,"data":"\r  |                                                                       \r  |.......                                                          |  10%\n"}
+,{"stream_name":"stdout","time":13.705078707,"data":"label: unnamed-chunk-8\n"}
+,{"stream_name":"stdout","time":13.713877101,"data":"\r  |                                                                       \r  |.......                                                          |  11%\n"}
+,{"stream_name":"stdout","time":13.713918853,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":13.713926084,"data":"\n"}
+,{"stream_name":"stdout","time":13.714170344,"data":"\r  |                                                                       \r  |........                                                         |  12%\n"}
+,{"stream_name":"stdout","time":13.715200874,"data":"label: unnamed-chunk-9\n"}
+,{"stream_name":"stdout","time":13.778556138999999,"data":"\n"}
+,{"stream_name":"stdout","time":13.778603379,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":13.778611035,"data":"\n"}
+,{"stream_name":"stdout","time":13.778714535,"data":"\r  |                                                                       \r  |........                                                         |  13%\n"}
+,{"stream_name":"stdout","time":13.779912246,"data":"label: unnamed-chunk-10\n"}
+,{"stream_name":"stdout","time":13.79137013,"data":"\r  |                                                                       \r  |.........                                                        |  13%\n"}
+,{"stream_name":"stdout","time":13.791453856,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":13.791462885,"data":"\n"}
+,{"stream_name":"stdout","time":13.791661428,"data":"\r  |                                                                       \r  |.........                                                        |  14%\n"}
+,{"stream_name":"stdout","time":13.792544447000001,"data":"label: unnamed-chunk-11\n"}
+,{"stream_name":"stdout","time":13.837744536,"data":"\n"}
+,{"stream_name":"stdout","time":13.837824256,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":13.837832063,"data":"\n"}
+,{"stream_name":"stdout","time":13.837866785,"data":"\r  |                                                                       \r  |..........                                                       |  15%\n"}
+,{"stream_name":"stdout","time":13.838972109,"data":"label: unnamed-chunk-12\n"}
+,{"stream_name":"stdout","time":15.299905663,"data":"\r  |                                                                       \r  |..........                                                       |  16%\n"}
+,{"stream_name":"stdout","time":15.299958485,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":15.299984823,"data":"\n"}
+,{"stream_name":"stdout","time":15.299990884,"data":"\r  |                                                                       \r  |...........                                                      |  16%\n"}
+,{"stream_name":"stdout","time":15.300935849,"data":"label: unnamed-chunk-13 (with options) \n"}
+,{"stream_name":"stdout","time":15.301352872,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":15.302293378,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":15.30324156,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":15.303926152,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":15.304578249,"data":" $ fig.cap  : chr \"Fig. 1\"\n"}
+,{"stream_name":"stdout","time":15.305205786,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":15.305231289,"data":"\n"}
+,{"stream_name":"stdout","time":16.447796277,"data":"\r  |                                                                       \r  |...........                                                      |  17%\n"}
+,{"stream_name":"stdout","time":16.44793812,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":16.447970354,"data":"\n"}
+,{"stream_name":"stdout","time":16.448327989,"data":"\n"}
+,{"stream_name":"stdout","time":16.449825454,"data":"label: unnamed-chunk-14 (with options) \n"}
+,{"stream_name":"stdout","time":16.450181101,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":16.451442294,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":16.452771968,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":16.453584399,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":16.45442647,"data":" $ fig.cap  : chr \"Fig. 2\"\n"}
+,{"stream_name":"stdout","time":16.455104761,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":16.455132182,"data":"\n"}
+,{"stream_name":"stdout","time":17.456976548,"data":"\r  |                                                                       \r  |............                                                     |  18%\n"}
+,{"stream_name":"stdout","time":17.457119695,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":17.457214515,"data":"\n"}
+,{"stream_name":"stdout","time":17.457380575,"data":"\n"}
+,{"stream_name":"stdout","time":17.458569545,"data":"label: unnamed-chunk-15 (with options) \n"}
+,{"stream_name":"stdout","time":17.459280782,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":17.460725517,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":17.461564358,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":17.46269373,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":17.463405968,"data":" $ fig.cap  : chr \"Fig. 3\"\n"}
+,{"stream_name":"stdout","time":17.464279255,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":17.464318662,"data":"\n"}
+,{"stream_name":"stdout","time":17.885657063,"data":"\r  |                                                                       \r  |............                                                     |  19%\n"}
+,{"stream_name":"stdout","time":17.885693836,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":17.885701247,"data":"\n"}
+,{"stream_name":"stdout","time":17.885961686,"data":"\r  |                                                                       \r  |.............                                                    |  20%\n"}
+,{"stream_name":"stdout","time":17.887026544,"data":"label: unnamed-chunk-16 (with options) \n"}
+,{"stream_name":"stdout","time":17.887333616,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":17.888488785,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":17.889048663,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":17.889862155,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":17.890582381,"data":" $ fig.cap  : chr \"Fig. 4\"\n"}
+,{"stream_name":"stdout","time":17.891338147,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":17.891365284,"data":"\n"}
+,{"stream_name":"stdout","time":18.304856587,"data":"\n"}
+,{"stream_name":"stdout","time":18.30492013,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":18.304929165,"data":"\n"}
+,{"stream_name":"stdout","time":18.305263452,"data":"\r  |                                                                       \r  |..............                                                   |  21%\n"}
+,{"stream_name":"stdout","time":18.307068339,"data":"label: unnamed-chunk-17 (with options) \n"}
+,{"stream_name":"stdout","time":18.307739375,"data":"List of 6\n"}
+,{"stream_name":"stdout","time":18.308970695,"data":" $ message  : logi FALSE\n"}
+,{"stream_name":"stdout","time":18.3098241,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":18.310817171,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":18.311879637,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":18.312679468,"data":" $ fig.cap  : chr \"Fig. 4\"\n"}
+,{"stream_name":"stdout","time":18.313896063,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":18.313975127,"data":"\n"}
+,{"stream_name":"stderr","time":19.688627052,"data":"Picking joint bandwidth of 0.0414\n"}
+,{"stream_name":"stdout","time":21.811302627,"data":"\n"}
+,{"stream_name":"stdout","time":21.811347451,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":21.811356227,"data":"\n"}
+,{"stream_name":"stdout","time":21.811646629,"data":"\r  |                                                                       \r  |..............                                                   |  22%\n"}
+,{"stream_name":"stdout","time":21.81277442,"data":"label: unnamed-chunk-18 (with options) \n"}
+,{"stream_name":"stdout","time":21.813024264,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":21.814098701,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":21.81474541,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":21.815703713,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":21.816497044,"data":" $ fig.cap  : chr \"Fig. 4\"\n"}
+,{"stream_name":"stdout","time":21.817123057,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":21.817146228,"data":"\n"}
+,{"stream_name":"stdout","time":24.12821899,"data":"\r  |                                                                       \r  |...............                                                  |  23%\n"}
+,{"stream_name":"stdout","time":24.128354068,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":24.128372227,"data":"\n"}
+,{"stream_name":"stdout","time":24.128483165,"data":"\n"}
+,{"stream_name":"stdout","time":24.129590336,"data":"label: unnamed-chunk-19 (with options) \n"}
+,{"stream_name":"stdout","time":24.130020885,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":24.130994734,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":24.131582519,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":24.132220894,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":24.132794342,"data":" $ fig.cap  : chr \"Fig. 5\"\n"}
+,{"stream_name":"stdout","time":24.133380924,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":24.133414699,"data":"\n"}
+,{"stream_name":"stdout","time":25.748358757,"data":"\r  |                                                                       \r  |...............                                                  |  24%\n"}
+,{"stream_name":"stdout","time":25.748449966,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":25.748465552,"data":"\n"}
+,{"stream_name":"stdout","time":25.74866941,"data":"\r  |                                                                       \r  |................                                                 |  24%\n"}
+,{"stream_name":"stdout","time":25.749680269,"data":"label: unnamed-chunk-20 (with options) \n"}
+,{"stream_name":"stdout","time":25.750061068,"data":"List of 6\n"}
+,{"stream_name":"stdout","time":25.751406871,"data":" $ split     : logi FALSE\n"}
+,{"stream_name":"stdout","time":25.752230695,"data":" $ fig.align : chr \"default\"\n"}
+,{"stream_name":"stdout","time":25.753080775,"data":" $ warning   : logi FALSE\n"}
+,{"stream_name":"stdout","time":25.753719067,"data":" $ fig.cap   : chr \"Fig. 6\"\n"}
+,{"stream_name":"stdout","time":25.754556644,"data":" $ fig.height: num 3.5\n"}
+,{"stream_name":"stdout","time":25.755180563,"data":" $ out.width : chr \"100%\"\n"}
+,{"stream_name":"stdout","time":25.755205073,"data":"\n"}
+,{"stream_name":"stdout","time":26.79644159,"data":"\r  |                                                                       \r  |................                                                 |  25%\n"}
+,{"stream_name":"stdout","time":26.796552751,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":26.796569025,"data":"\n"}
+,{"stream_name":"stdout","time":26.79679581,"data":"\r  |                                                                       \r  |.................                                                |  25%\n"}
+,{"stream_name":"stdout","time":26.798036999,"data":"label: unnamed-chunk-21 (with options) \n"}
+,{"stream_name":"stdout","time":26.798397758,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":26.799543163,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":26.800368188,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":26.801436216,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":26.802034804,"data":" $ fig.cap  : chr \"Fig. 6\"\n"}
+,{"stream_name":"stdout","time":26.80253453,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":26.802558646,"data":"\n"}
+,{"stream_name":"stdout","time":27.25485758,"data":"\r  |                                                                       \r  |.................                                                |  26%\n"}
+,{"stream_name":"stdout","time":27.254920463,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":27.254930637,"data":"\n"}
+,{"stream_name":"stdout","time":27.255176308,"data":"\r  |                                                                       \r  |.................                                                |  27%\n"}
+,{"stream_name":"stdout","time":27.256504929,"data":"label: unnamed-chunk-22 (with options) \n"}
+,{"stream_name":"stdout","time":27.256907631,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":27.257920335,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":27.258532374,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":27.259355623,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":27.260050329,"data":" $ fig.cap  : chr \"Fig. 7\"\n"}
+,{"stream_name":"stdout","time":27.260605135,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":27.260625009,"data":"\n"}
+,{"stream_name":"stdout","time":28.969408876,"data":"\r  |                                                                       \r  |..................                                               |  27%\n"}
+,{"stream_name":"stdout","time":28.969609204,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":28.969645163,"data":"\n"}
+,{"stream_name":"stdout","time":28.969960532,"data":"\r  |                                                                       \r  |..................                                               |  28%\n"}
+,{"stream_name":"stdout","time":28.971224323,"data":"label: unnamed-chunk-23\n"}
+,{"stream_name":"stdout","time":29.293890468,"data":"\n"}
+,{"stream_name":"stdout","time":29.293945892,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":29.293954292,"data":"\n"}
+,{"stream_name":"stdout","time":29.294109407,"data":"\r  |                                                                       \r  |...................                                              |  29%\n"}
+,{"stream_name":"stdout","time":29.295102978,"data":"label: unnamed-chunk-24 (with options) \n"}
+,{"stream_name":"stdout","time":29.295386596,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":29.296563766,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":29.297280981,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":29.298042203,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":29.29864384,"data":" $ fig.cap  : chr \"Fig. 7\"\n"}
+,{"stream_name":"stdout","time":29.299277657,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":29.29930336,"data":"\n"}
+,{"stream_name":"stdout","time":29.996521916,"data":"\n"}
+,{"stream_name":"stdout","time":29.996561027,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":29.99656841,"data":"\n"}
+,{"stream_name":"stdout","time":29.996825316,"data":"\r  |                                                                       \r  |....................                                             |  30%\n"}
+,{"stream_name":"stdout","time":29.997894831,"data":"label: unnamed-chunk-25 (with options) \n"}
+,{"stream_name":"stdout","time":29.998286646,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":29.999451534,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":30.000328524,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":30.001351169,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":30.002057839,"data":" $ fig.cap  : chr \"Fig. 8\"\n"}
+,{"stream_name":"stdout","time":30.002651192,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":30.002682943,"data":"\n"}
+,{"stream_name":"stdout","time":30.946643349,"data":"\r  |                                                                       \r  |....................                                             |  31%\n"}
+,{"stream_name":"stdout","time":30.946839919,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":30.946890442,"data":"\n"}
+,{"stream_name":"stdout","time":30.946960526,"data":"\n"}
+,{"stream_name":"stdout","time":30.947995655,"data":"label: unnamed-chunk-26\n"}
+,{"stream_name":"stdout","time":32.664713726,"data":"\r  |                                                                       \r  |.....................                                            |  32%\n"}
+,{"stream_name":"stdout","time":32.664804828,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":32.664820802,"data":"\n"}
+,{"stream_name":"stdout","time":32.664942015,"data":"\n"}
+,{"stream_name":"stdout","time":32.66615292,"data":"label: unnamed-chunk-27\n"}
+,{"stream_name":"stdout","time":34.460270405,"data":"\r  |                                                                       \r  |.....................                                            |  33%\n"}
+,{"stream_name":"stdout","time":34.460484683,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":34.460532549,"data":"\n"}
+,{"stream_name":"stdout","time":34.460809915,"data":"\r  |                                                                       \r  |......................                                           |  34%\n"}
+,{"stream_name":"stdout","time":34.461776618,"data":"label: unnamed-chunk-28\n"}
+,{"stream_name":"stdout","time":35.243987939,"data":"\n"}
+,{"stream_name":"stdout","time":35.244070266,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":35.244079572,"data":"\n"}
+,{"stream_name":"stdout","time":35.244280587,"data":"\r  |                                                                       \r  |.......................                                          |  35%\n"}
+,{"stream_name":"stdout","time":35.245314146,"data":"label: unnamed-chunk-29 (with options) \n"}
+,{"stream_name":"stdout","time":35.245617342,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":35.246800574,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":35.247498099,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":35.248313923,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":35.248914145,"data":" $ fig.cap  : chr \"Fig. 9\"\n"}
+,{"stream_name":"stdout","time":35.249437612,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":35.249462118,"data":"\n"}
+,{"stream_name":"stdout","time":36.641855817,"data":"\n"}
+,{"stream_name":"stdout","time":36.641893949,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":36.641902228,"data":"\n"}
+,{"stream_name":"stdout","time":36.642210821,"data":"\r  |                                                                       \r  |.......................                                          |  36%\n"}
+,{"stream_name":"stdout","time":36.643241093,"data":"label: unnamed-chunk-30 (with options) \n"}
+,{"stream_name":"stdout","time":36.643655946,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":36.64496935,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":36.645620716,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":36.646563227,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":36.647421435,"data":" $ fig.cap  : chr \"Fig. 10\"\n"}
+,{"stream_name":"stdout","time":36.64811945,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":36.648146333,"data":"\n"}
+,{"stream_name":"stdout","time":37.695928635,"data":"\r  |                                                                       \r  |........................                                         |  36%\n"}
+,{"stream_name":"stdout","time":37.696053772,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":37.696094878,"data":"\n"}
+,{"stream_name":"stdout","time":37.696369414,"data":"\r  |                                                                       \r  |........................                                         |  37%\n"}
+,{"stream_name":"stdout","time":37.697733991,"data":"label: unnamed-chunk-31\n"}
+,{"stream_name":"stdout","time":37.709995869,"data":"\r  |                                                                       \r  |........................                                         |  38%\n"}
+,{"stream_name":"stdout","time":37.710105685,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":37.710155068,"data":"\n"}
+,{"stream_name":"stdout","time":37.710408024,"data":"\r  |                                                                       \r  |.........................                                        |  38%\n"}
+,{"stream_name":"stdout","time":37.711582255,"data":"label: unnamed-chunk-32 (with options) \n"}
+,{"stream_name":"stdout","time":37.711980922,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":37.713186308,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":37.713885632,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":37.714900081,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":37.715583196,"data":" $ fig.cap  : chr \"Fig. 11\"\n"}
+,{"stream_name":"stdout","time":37.71623988,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":37.716264966,"data":"\n"}
+,{"stream_name":"stdout","time":39.023557379,"data":"\r  |                                                                       \r  |.........................                                        |  39%\n"}
+,{"stream_name":"stdout","time":39.023598795,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":39.023605597,"data":"\n"}
+,{"stream_name":"stdout","time":39.023860174,"data":"\r  |                                                                       \r  |..........................                                       |  39%\n"}
+,{"stream_name":"stdout","time":39.024879756,"data":"label: unnamed-chunk-33 (with options) \n"}
+,{"stream_name":"stdout","time":39.025270586,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":39.026437355,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":39.027407685,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":39.028408105,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":39.029127702,"data":" $ fig.cap  : chr \"Fig. 12\"\n"}
+,{"stream_name":"stdout","time":39.029866261,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":39.029893005,"data":"\n"}
+,{"stream_name":"stdout","time":39.715160731,"data":"\r  |                                                                       \r  |..........................                                       |  40%\n"}
+,{"stream_name":"stdout","time":39.715199737,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":39.715206952,"data":"\n"}
+,{"stream_name":"stdout","time":39.715392024,"data":"\n"}
+,{"stream_name":"stdout","time":39.716434071,"data":"label: unnamed-chunk-34 (with options) \n"}
+,{"stream_name":"stdout","time":39.716747105,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":39.717706597,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":39.71830133,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":39.718975927,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":39.719549183,"data":" $ fig.cap  : chr \"Fig. 13\"\n"}
+,{"stream_name":"stdout","time":39.720075264,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":39.7200962,"data":"\n"}
+,{"stream_name":"stdout","time":40.511572688,"data":"\r  |                                                                       \r  |...........................                                      |  41%\n"}
+,{"stream_name":"stdout","time":40.511680528,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":40.51170747,"data":"\n"}
+,{"stream_name":"stdout","time":40.512108074,"data":"\r  |                                                                       \r  |...........................                                      |  42%\n"}
+,{"stream_name":"stdout","time":40.513460878,"data":"label: unnamed-chunk-35\n"}
+,{"stream_name":"stdout","time":44.553176909,"data":"\n"}
+,{"stream_name":"stdout","time":44.553228931,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":44.553235549,"data":"\n"}
+,{"stream_name":"stdout","time":44.553515208,"data":"\r  |                                                                       \r  |............................                                     |  43%\n"}
+,{"stream_name":"stdout","time":44.554365487,"data":"label: unnamed-chunk-36 (with options) \n"}
+,{"stream_name":"stdout","time":44.554808955,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":44.55577977,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":44.556415912,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":44.557228469,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":44.557826475,"data":" $ fig.cap  : chr \"Fig. 14\"\n"}
+,{"stream_name":"stdout","time":44.558411675,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":44.558434837,"data":"\n"}
+,{"stream_name":"stdout","time":45.6320686,"data":"\n"}
+,{"stream_name":"stdout","time":45.632141932,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":45.632151528,"data":"\n"}
+,{"stream_name":"stdout","time":45.632361021,"data":"\r  |                                                                       \r  |.............................                                    |  44%\n"}
+,{"stream_name":"stdout","time":45.633431055,"data":"label: unnamed-chunk-37 (with options) \n"}
+,{"stream_name":"stdout","time":45.63381707,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":45.634916711,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":45.635600587,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":45.636341022,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":45.636933897,"data":" $ fig.cap  : chr \"Fig. 14\"\n"}
+,{"stream_name":"stdout","time":45.63751821,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":45.637536602,"data":"\n"}
+,{"stream_name":"stdout","time":46.424984551,"data":"\r  |                                                                       \r  |.............................                                    |  45%\n"}
+,{"stream_name":"stdout","time":46.425079649,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":46.425139717,"data":"\n"}
+,{"stream_name":"stdout","time":46.425266037,"data":"\n"}
+,{"stream_name":"stdout","time":46.426211397,"data":"label: unnamed-chunk-38 (with options) \n"}
+,{"stream_name":"stdout","time":46.426618537,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":46.427692111,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":46.428550553,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":46.429405513,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":46.430150164,"data":" $ fig.cap  : chr \"Fig. 15\"\n"}
+,{"stream_name":"stdout","time":46.43070737,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":46.43073208,"data":"\n"}
+,{"stream_name":"stdout","time":47.627205093,"data":"\r  |                                                                       \r  |..............................                                   |  46%\n"}
+,{"stream_name":"stdout","time":47.627832519,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":47.627865257,"data":"\n"}
+,{"stream_name":"stdout","time":47.62787221,"data":"\n"}
+,{"stream_name":"stdout","time":47.628842401,"data":"label: unnamed-chunk-39 (with options) \n"}
+,{"stream_name":"stdout","time":47.629239693,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":47.630410416,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":47.631288188,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":47.632130948,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":47.632895429,"data":" $ fig.cap  : chr \"Fig. 16\"\n"}
+,{"stream_name":"stdout","time":47.633745161,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":47.633785821000004,"data":"\n"}
+,{"stream_name":"stdout","time":48.354098748,"data":"\r  |                                                                       \r  |..............................                                   |  47%\n"}
+,{"stream_name":"stdout","time":48.354151264,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":48.354174816,"data":"\n"}
+,{"stream_name":"stdout","time":48.354553824999996,"data":"\r  |                                                                       \r  |...............................                                  |  47%\n"}
+,{"stream_name":"stdout","time":48.355488215,"data":"label: unnamed-chunk-40 (with options) \n"}
+,{"stream_name":"stdout","time":48.355934858,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":48.357152461,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":48.357841218,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":48.358563828,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":48.359224468,"data":" $ fig.cap  : chr \"Fig. 17\"\n"}
+,{"stream_name":"stdout","time":48.359849501,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":48.359880684,"data":"\n"}
+,{"stream_name":"stdout","time":49.380958454,"data":"\r  |                                                                       \r  |...............................                                  |  48%\n"}
+,{"stream_name":"stdout","time":49.382060408,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":49.382095863,"data":"\n"}
+,{"stream_name":"stdout","time":49.382102952,"data":"\r  |                                                                       \r  |................................                                 |  49%\n"}
+,{"stream_name":"stdout","time":49.382483679,"data":"label: unnamed-chunk-41 (with options) \n"}
+,{"stream_name":"stdout","time":49.382931345,"data":"List of 6\n"}
+,{"stream_name":"stdout","time":49.384244607,"data":" $ split     : logi FALSE\n"}
+,{"stream_name":"stdout","time":49.38504449,"data":" $ fig.align : chr \"default\"\n"}
+,{"stream_name":"stdout","time":49.385852955,"data":" $ warning   : logi FALSE\n"}
+,{"stream_name":"stdout","time":49.38651429,"data":" $ fig.cap   : chr \"Fig. 18\"\n"}
+,{"stream_name":"stdout","time":49.387284144,"data":" $ fig.height: num 3.5\n"}
+,{"stream_name":"stdout","time":49.387850294,"data":" $ out.width : chr \"100%\"\n"}
+,{"stream_name":"stdout","time":49.38790486,"data":"\n"}
+,{"stream_name":"stdout","time":51.574951135,"data":"\n"}
+,{"stream_name":"stdout","time":51.575015248,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":51.575027401,"data":"\n"}
+,{"stream_name":"stdout","time":51.575509428,"data":"\r  |                                                                       \r  |................................                                 |  50%\n"}
+,{"stream_name":"stdout","time":51.576490363,"data":"label: unnamed-chunk-42 (with options) \n"}
+,{"stream_name":"stdout","time":51.577022222,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":51.578094682,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":51.578845908,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":51.579807013,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":51.580543039,"data":" $ fig.cap  : chr \"Fig. 19\"\n"}
+,{"stream_name":"stdout","time":51.581611893,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":51.58164075,"data":"\n"}
+,{"stream_name":"stdout","time":54.653804968,"data":"\r  |                                                                       \r  |.................................                                |  50%\n"}
+,{"stream_name":"stdout","time":54.654008947,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":54.654048479,"data":"\n"}
+,{"stream_name":"stdout","time":54.654364955,"data":"\r  |                                                                       \r  |.................................                                |  51%\n"}
+,{"stream_name":"stdout","time":54.655574266,"data":"label: unnamed-chunk-43 (with options) \n"}
+,{"stream_name":"stdout","time":54.656052722,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":54.657352915,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":54.658291096,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":54.659288086,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":54.659966146,"data":" $ fig.cap  : chr \"Fig. 20\"\n"}
+,{"stream_name":"stdout","time":54.660596974,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":54.660625509,"data":"\n"}
+,{"stream_name":"stdout","time":59.692608809,"data":"\n"}
+,{"stream_name":"stdout","time":59.69266433,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":59.692674401,"data":"\n"}
+,{"stream_name":"stdout","time":59.692945087,"data":"\r  |                                                                       \r  |..................................                               |  52%\n"}
+,{"stream_name":"stdout","time":59.694007677,"data":"label: unnamed-chunk-44\n"}
+,{"stream_name":"stdout","time":60.428869712,"data":"\r  |                                                                       \r  |..................................                               |  53%\n"}
+,{"stream_name":"stdout","time":60.429178369,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":60.429287501,"data":"\n"}
+,{"stream_name":"stdout","time":60.429381552,"data":"\r  |                                                                       \r  |...................................                              |  53%\n"}
+,{"stream_name":"stdout","time":60.430263656,"data":"label: unnamed-chunk-45\n"}
+,{"stream_name":"stdout","time":60.631289723,"data":"\r  |                                                                       \r  |...................................                              |  54%\n"}
+,{"stream_name":"stdout","time":60.631433423,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":60.631470847,"data":"\n"}
+,{"stream_name":"stdout","time":60.631801708,"data":"\n"}
+,{"stream_name":"stdout","time":60.632657088,"data":"label: unnamed-chunk-46\n"}
+,{"stream_name":"stdout","time":119.803869039,"data":"\r  |                                                                       \r  |....................................                             |  55%\n"}
+,{"stream_name":"stdout","time":119.803941926,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":119.803952395,"data":"\n"}
+,{"stream_name":"stdout","time":119.804153178,"data":"\n"}
+,{"stream_name":"stdout","time":119.805708773,"data":"label: unnamed-chunk-47\n"}
+,{"stream_name":"stdout","time":119.989604853,"data":"\r  |                                                                       \r  |....................................                             |  56%\n"}
+,{"stream_name":"stdout","time":119.989670555,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":119.989680919,"data":"\n"}
+,{"stream_name":"stdout","time":119.989949442,"data":"\r  |                                                                       \r  |.....................................                            |  57%\n"}
+,{"stream_name":"stdout","time":119.991350743,"data":"label: unnamed-chunk-48 (with options) \n"}
+,{"stream_name":"stdout","time":119.991749278,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":119.993064705,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":119.993898128,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":119.994834519,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":119.995439132,"data":" $ fig.cap  : chr \"Fig. 21\"\n"}
+,{"stream_name":"stdout","time":119.996075765,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":119.996105793,"data":"\n"}
+,{"stream_name":"stdout","time":123.455396783,"data":"\n"}
+,{"stream_name":"stdout","time":123.455494536,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":123.455512835,"data":"\n"}
+,{"stream_name":"stdout","time":123.456969983,"data":"\r  |                                                                       \r  |......................................                           |  58%\n"}
+,{"stream_name":"stdout","time":123.45745566,"data":"label: unnamed-chunk-49 (with options) \n"}
+,{"stream_name":"stdout","time":123.45806913,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":123.459709811,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":123.460866037,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":123.46180129,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":123.462882168,"data":" $ fig.cap  : chr \"Fig. 22\"\n"}
+,{"stream_name":"stdout","time":123.463564171,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":123.463595351,"data":"\n"}
+,{"stream_name":"stdout","time":126.973323955,"data":"\n"}
+,{"stream_name":"stdout","time":126.973392689,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":126.973405034,"data":"\n"}
+,{"stream_name":"stdout","time":126.973685356,"data":"\r  |                                                                       \r  |......................................                           |  59%\n"}
+,{"stream_name":"stdout","time":126.974669654,"data":"label: unnamed-chunk-50\n"}
+,{"stream_name":"stdout","time":127.245869419,"data":"\r  |                                                                       \r  |.......................................                          |  60%\n"}
+,{"stream_name":"stdout","time":127.245938919,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":127.245949505,"data":"\n"}
+,{"stream_name":"stdout","time":127.246160132,"data":"\n"}
+,{"stream_name":"stdout","time":127.246966096,"data":"label: unnamed-chunk-51 (with options) \n"}
+,{"stream_name":"stdout","time":127.247294246,"data":"List of 6\n"}
+,{"stream_name":"stdout","time":127.248376674,"data":" $ split     : logi FALSE\n"}
+,{"stream_name":"stdout","time":127.24910401,"data":" $ fig.align : chr \"default\"\n"}
+,{"stream_name":"stdout","time":127.249838702,"data":" $ warning   : logi FALSE\n"}
+,{"stream_name":"stdout","time":127.250518524,"data":" $ fig.cap   : chr \"Fig. 23\"\n"}
+,{"stream_name":"stdout","time":127.251419245,"data":" $ fig.height: num 3.5\n"}
+,{"stream_name":"stdout","time":127.252079885,"data":" $ out.width : chr \"100%\"\n"}
+,{"stream_name":"stdout","time":127.252112093,"data":"\n"}
+,{"stream_name":"stdout","time":130.324955265,"data":"\r  |                                                                       \r  |.......................................                          |  61%\n"}
+,{"stream_name":"stdout","time":130.325001281,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":130.325008944,"data":"\n"}
+,{"stream_name":"stdout","time":130.325318079,"data":"\r  |                                                                       \r  |........................................                         |  61%\n"}
+,{"stream_name":"stdout","time":130.326670462,"data":"label: unnamed-chunk-52\n"}
+,{"stream_name":"stdout","time":134.293742517,"data":"\r  |                                                                       \r  |........................................                         |  62%\n"}
+,{"stream_name":"stdout","time":134.293856905,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":134.293868651,"data":"\n"}
+,{"stream_name":"stdout","time":134.294001303,"data":"\r  |                                                                       \r  |.........................................                        |  62%\n"}
+,{"stream_name":"stdout","time":134.29504355,"data":"label: unnamed-chunk-53 (with options) \n"}
+,{"stream_name":"stdout","time":134.295570878,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":134.296736876,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":134.297572956,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":134.298490538,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":134.299229023,"data":" $ fig.cap  : chr \"Fig. 24\"\n"}
+,{"stream_name":"stdout","time":134.299895849,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":134.299930552,"data":"\n"}
+,{"stream_name":"stdout","time":135.071558372,"data":"\r  |                                                                       \r  |.........................................                        |  63%\n"}
+,{"stream_name":"stdout","time":135.071625418,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":135.071634617,"data":"\n"}
+,{"stream_name":"stdout","time":135.072164504,"data":"\r  |                                                                       \r  |.........................................                        |  64%\n"}
+,{"stream_name":"stdout","time":135.073588038,"data":"label: unnamed-chunk-54\n"}
+,{"stream_name":"stdout","time":135.165670484,"data":"\r  |                                                                       \r  |..........................................                       |  64%\n"}
+,{"stream_name":"stdout","time":135.165743777,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":135.165753905,"data":"\n"}
+,{"stream_name":"stdout","time":135.165951848,"data":"\r  |                                                                       \r  |..........................................                       |  65%\n"}
+,{"stream_name":"stdout","time":135.167001118,"data":"label: unnamed-chunk-55 (with options) \n"}
+,{"stream_name":"stdout","time":135.167357416,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":135.168822756,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":135.169576357,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":135.170448725,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":135.171321947,"data":" $ fig.cap  : chr \"Fig. 25\"\n"}
+,{"stream_name":"stdout","time":135.172092001,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":135.17212368,"data":"\n"}
+,{"stream_name":"stdout","time":136.026351074,"data":"\n"}
+,{"stream_name":"stdout","time":136.026403845,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":136.026414217,"data":"\n"}
+,{"stream_name":"stdout","time":136.026730884,"data":"\r  |                                                                       \r  |...........................................                      |  66%\n"}
+,{"stream_name":"stdout","time":136.02814898,"data":"label: unnamed-chunk-56\n"}
+,{"stream_name":"stdout","time":136.067846839,"data":"\n"}
+,{"stream_name":"stdout","time":136.067925536,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":136.067936291,"data":"\n"}
+,{"stream_name":"stdout","time":136.068452534,"data":"\r  |                                                                       \r  |............................................                     |  67%\n"}
+,{"stream_name":"stdout","time":136.069573954,"data":"label: unnamed-chunk-57\n"}
+,{"stream_name":"stdout","time":136.103882934,"data":"\r  |                                                                       \r  |............................................                     |  68%\n"}
+,{"stream_name":"stdout","time":136.103940415,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":136.103949771,"data":"\n"}
+,{"stream_name":"stdout","time":136.104151188,"data":"\n"}
+,{"stream_name":"stdout","time":136.105132244,"data":"label: unnamed-chunk-58 (with options) \n"}
+,{"stream_name":"stdout","time":136.105470552,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":136.10651444,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":136.107180366,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":136.107960597,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":136.108652333,"data":" $ fig.cap  : chr \"Fig. 26\"\n"}
+,{"stream_name":"stdout","time":136.109233521,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":136.109356527,"data":"\n"}
+,{"stream_name":"stdout","time":136.958199151,"data":"\r  |                                                                       \r  |.............................................                    |  69%\n"}
+,{"stream_name":"stdout","time":136.958259907,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":136.958270676,"data":"\n"}
+,{"stream_name":"stdout","time":136.95951199,"data":"\n"}
+,{"stream_name":"stdout","time":136.959602254,"data":"label: unnamed-chunk-59 (with options) \n"}
+,{"stream_name":"stdout","time":136.960648986,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":136.96126702,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":136.96228946,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":136.963250035,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":136.964056863,"data":" $ fig.cap  : chr \"Fig. 27\"\n"}
+,{"stream_name":"stdout","time":136.964676662,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":136.964706006,"data":"\n"}
+,{"stream_name":"stdout","time":140.743488365,"data":"\r  |                                                                       \r  |.............................................                    |  70%\n"}
+,{"stream_name":"stdout","time":140.743612595,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":140.74363682,"data":"\n"}
+,{"stream_name":"stdout","time":140.743905635,"data":"\r  |                                                                       \r  |..............................................                   |  71%\n"}
+,{"stream_name":"stdout","time":140.744888407,"data":"label: unnamed-chunk-60 (with options) \n"}
+,{"stream_name":"stdout","time":140.745316041,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":140.746467915,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":140.747225672,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":140.748111717,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":140.748747629,"data":" $ fig.cap  : chr \"Fig. 28\"\n"}
+,{"stream_name":"stdout","time":140.749411082,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":140.749501456,"data":"\n"}
+,{"stream_name":"stdout","time":144.381793376,"data":"\n"}
+,{"stream_name":"stdout","time":144.381895804,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":144.38192474,"data":"\n"}
+,{"stream_name":"stdout","time":144.382341951,"data":"\r  |                                                                       \r  |...............................................                  |  72%\n"}
+,{"stream_name":"stdout","time":144.383724952,"data":"label: unnamed-chunk-61 (with options) \n"}
+,{"stream_name":"stdout","time":144.384164482,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":144.385582739,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":144.386346035,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":144.387361148,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":144.388062162,"data":" $ fig.cap  : chr \"Fig. 29\"\n"}
+,{"stream_name":"stdout","time":144.388648775,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":144.388731392,"data":"\n"}
+,{"stream_name":"stdout","time":145.954636321,"data":"\n"}
+,{"stream_name":"stdout","time":145.956071276,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":145.956108292,"data":"\n"}
+,{"stream_name":"stdout","time":145.956173752,"data":"\r  |                                                                       \r  |...............................................                  |  73%\n"}
+,{"stream_name":"stdout","time":145.956183785,"data":"label: unnamed-chunk-62 (with options) \n"}
+,{"stream_name":"stdout","time":145.956336198,"data":"List of 6\n"}
+,{"stream_name":"stdout","time":145.957314606,"data":" $ split     : logi FALSE\n"}
+,{"stream_name":"stdout","time":145.958146839,"data":" $ fig.align : chr \"default\"\n"}
+,{"stream_name":"stdout","time":145.958965973,"data":" $ warning   : logi FALSE\n"}
+,{"stream_name":"stdout","time":145.959490499,"data":" $ fig.cap   : chr \"Fig. 30\"\n"}
+,{"stream_name":"stdout","time":145.960283317,"data":" $ fig.height: num 3\n"}
+,{"stream_name":"stdout","time":145.960813488,"data":" $ out.width : chr \"100%\"\n"}
+,{"stream_name":"stdout","time":145.960842473,"data":"\n"}
+,{"stream_name":"stdout","time":147.049178828,"data":"\r  |                                                                       \r  |................................................                 |  73%\n"}
+,{"stream_name":"stdout","time":147.049275671,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":147.049441443,"data":"\n"}
+,{"stream_name":"stdout","time":147.049860021,"data":"\r  |                                                                       \r  |................................................                 |  74%\n"}
+,{"stream_name":"stdout","time":147.050776705,"data":"label: unnamed-chunk-63 (with options) \n"}
+,{"stream_name":"stdout","time":147.051165834,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":147.052323407,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":147.053112747,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":147.053935669,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":147.054595685,"data":" $ fig.cap  : chr \"Fig. 31\"\n"}
+,{"stream_name":"stdout","time":147.055326797,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":147.055350625,"data":"\n"}
+,{"stream_name":"stdout","time":149.812838709,"data":"\r  |                                                                       \r  |................................................                 |  75%\n"}
+,{"stream_name":"stdout","time":149.812942181,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":149.813004794,"data":"\n"}
+,{"stream_name":"stdout","time":149.813283921,"data":"\r  |                                                                       \r  |.................................................                |  75%\n"}
+,{"stream_name":"stdout","time":149.814299245,"data":"label: unnamed-chunk-64 (with options) \n"}
+,{"stream_name":"stdout","time":149.814726815,"data":"List of 7\n"}
+,{"stream_name":"stdout","time":149.815912163,"data":" $ eval     : logi FALSE\n"}
+,{"stream_name":"stdout","time":149.816543746,"data":" $ fig.show : chr \"hide\"\n"}
+,{"stream_name":"stdout","time":149.817215818,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":149.817850654,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":149.81862769,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":149.819269673,"data":" $ fig.cap  : chr \"Fig. 32\"\n"}
+,{"stream_name":"stdout","time":149.81982656899999,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":149.819867014,"data":"\n"}
+,{"stream_name":"stdout","time":149.822774533,"data":"\r  |                                                                       \r  |.................................................                |  76%\n"}
+,{"stream_name":"stdout","time":149.822888059,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":149.82291144,"data":"\n"}
+,{"stream_name":"stdout","time":149.823193324,"data":"\r  |                                                                       \r  |..................................................               |  76%\n"}
+,{"stream_name":"stdout","time":149.824143472,"data":"label: unnamed-chunk-65\n"}
+,{"stream_name":"stdout","time":149.876286137,"data":"\r  |                                                                       \r  |..................................................               |  77%\n"}
+,{"stream_name":"stdout","time":149.876354975,"data":"   inline R code fragments\n"}
+,{"stream_name":"stdout","time":149.876365263,"data":"\n"}
+,{"stream_name":"stdout","time":149.900240828,"data":"\n"}
+,{"stream_name":"stdout","time":149.901311187,"data":"label: unnamed-chunk-66 (with options) \n"}
+,{"stream_name":"stdout","time":149.901856419,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":149.90282629,"data":" $ split    : logi FALSE\n"}
+,{"stream_name":"stdout","time":149.903590687,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":149.904539208,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":149.905264428,"data":" $ fig.cap  : chr \"Fig. 33\"\n"}
+,{"stream_name":"stdout","time":149.906013267,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":149.90604309,"data":"\n"}
+,{"stream_name":"stdout","time":162.171051527,"data":"\r  |                                                                       \r  |...................................................              |  78%\n"}
+,{"stream_name":"stdout","time":162.171159523,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":162.171286609,"data":"\n"}
+,{"stream_name":"stdout","time":162.172751602,"data":"\r  |                                                                       \r  |...................................................              |  79%\n"}
+,{"stream_name":"stdout","time":162.173318472,"data":"label: unnamed-chunk-67\n"}
+,{"stream_name":"stdout","time":162.182896402,"data":"\n"}
+,{"stream_name":"stdout","time":162.184002256,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":162.184043402,"data":"\n"}
+,{"stream_name":"stdout","time":162.184051171,"data":"\r  |                                                                       \r  |....................................................             |  80%\n"}
+,{"stream_name":"stdout","time":162.18442061,"data":"label: unnamed-chunk-68\n"}
+,{"stream_name":"stdout","time":162.195933202,"data":"\n"}
+,{"stream_name":"stdout","time":162.195996676,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":162.196008789,"data":"\n"}
+,{"stream_name":"stdout","time":162.196322003,"data":"\r  |                                                                       \r  |.....................................................            |  81%\n"}
+,{"stream_name":"stdout","time":162.197509969,"data":"label: unnamed-chunk-69 (with options) \n"}
+,{"stream_name":"stdout","time":162.197949661,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":162.237673722,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":162.239289246,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":162.240142508,"data":" $ message  : logi FALSE\n"}
+,{"stream_name":"stdout","time":162.240891115,"data":" $ fig.cap  : chr \"Fig. 34\"\n"}
+,{"stream_name":"stdout","time":162.241805674,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":162.241843493,"data":"\n"}
+,{"stream_name":"stdout","time":176.442844242,"data":"\r  |                                                                       \r  |.....................................................            |  82%\n"}
+,{"stream_name":"stdout","time":176.442935362,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":176.442963256,"data":"\n"}
+,{"stream_name":"stdout","time":176.443233076,"data":"\n"}
+,{"stream_name":"stdout","time":176.44460214,"data":"label: unnamed-chunk-70 (with options) \n"}
+,{"stream_name":"stdout","time":176.445164483,"data":"List of 6\n"}
+,{"stream_name":"stdout","time":176.446366001,"data":" $ fig.align : chr \"default\"\n"}
+,{"stream_name":"stdout","time":176.447382695,"data":" $ warning   : logi FALSE\n"}
+,{"stream_name":"stdout","time":176.448211673,"data":" $ message   : logi FALSE\n"}
+,{"stream_name":"stdout","time":176.448898157,"data":" $ fig.cap   : chr \"Fig. 35\"\n"}
+,{"stream_name":"stdout","time":176.449667563,"data":" $ fig.height: num 3.5\n"}
+,{"stream_name":"stdout","time":176.450268068,"data":" $ out.width : chr \"100%\"\n"}
+,{"stream_name":"stdout","time":176.450300835,"data":"\n"}
+,{"stream_name":"stdout","time":177.205326318,"data":"\r  |                                                                       \r  |......................................................           |  83%\n"}
+,{"stream_name":"stdout","time":177.20563312,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":177.205672569,"data":"\n"}
+,{"stream_name":"stdout","time":177.205817968,"data":"\n"}
+,{"stream_name":"stdout","time":177.242367737,"data":"label: unnamed-chunk-71 (with options) \n"}
+,{"stream_name":"stdout","time":177.242780075,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":177.243947455,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":177.245339812,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":177.246329859,"data":" $ message  : logi FALSE\n"}
+,{"stream_name":"stdout","time":177.247065125,"data":" $ fig.cap  : chr \"Fig. 36\"\n"}
+,{"stream_name":"stdout","time":177.247658,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":177.247860073,"data":"\n"}
+,{"stream_name":"stdout","time":179.126941249,"data":"\r  |                                                                       \r  |......................................................           |  84%\n"}
+,{"stream_name":"stdout","time":179.127995984,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":179.128034139,"data":"\n"}
+,{"stream_name":"stdout","time":179.128045501,"data":"\r  |                                                                       \r  |.......................................................          |  84%\n"}
+,{"stream_name":"stdout","time":179.128372912,"data":"label: unnamed-chunk-72 (with options) \n"}
+,{"stream_name":"stdout","time":179.128942708,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":179.130327972,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":179.131573707,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":179.132716728,"data":" $ message  : logi FALSE\n"}
+,{"stream_name":"stdout","time":179.133287647,"data":" $ fig.cap  : chr \"Fig. 37\"\n"}
+,{"stream_name":"stdout","time":179.133939298,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":179.1339841,"data":"\n"}
+,{"stream_name":"stdout","time":182.986858394,"data":"\r  |                                                                       \r  |.......................................................          |  85%\n"}
+,{"stream_name":"stdout","time":182.986991229,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":182.987025007,"data":"\n"}
+,{"stream_name":"stdout","time":182.987299629,"data":"\r  |                                                                       \r  |........................................................         |  86%\n"}
+,{"stream_name":"stdout","time":182.988417395,"data":"label: unnamed-chunk-73\n"}
+,{"stream_name":"stdout","time":187.368700271,"data":"\n"}
+,{"stream_name":"stdout","time":187.368781985,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":187.368794063,"data":"\n"}
+,{"stream_name":"stdout","time":187.369129741,"data":"\r  |                                                                       \r  |........................................................         |  87%\n"}
+,{"stream_name":"stdout","time":187.370581625,"data":"label: unnamed-chunk-74 (with options) \n"}
+,{"stream_name":"stdout","time":187.371056021,"data":"List of 5\n"}
+,{"stream_name":"stdout","time":187.372295308,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":187.373316876,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":187.374232921,"data":" $ message  : logi FALSE\n"}
+,{"stream_name":"stdout","time":187.374893601,"data":" $ fig.cap  : chr \"Fig. 38\"\n"}
+,{"stream_name":"stdout","time":187.375484734,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":187.375514593,"data":"\n"}
+,{"stream_name":"stdout","time":187.697854537,"data":"\r  |                                                                       \r  |.........................................................        |  87%\n"}
+,{"stream_name":"stdout","time":187.697900003,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":187.697910055,"data":"\n"}
+,{"stream_name":"stdout","time":187.699474302,"data":"\r  |                                                                       \r  |.........................................................        |  88%\n"}
+,{"stream_name":"stdout","time":187.700018052,"data":"label: unnamed-chunk-75\n"}
+,{"stream_name":"stdout","time":209.617394166,"data":"\n"}
+,{"stream_name":"stdout","time":209.617453668,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":209.617463202,"data":"\n"}
+,{"stream_name":"stdout","time":209.61758335,"data":"\r  |                                                                       \r  |..........................................................       |  89%\n"}
+,{"stream_name":"stdout","time":209.618867326,"data":"label: unnamed-chunk-76\n"}
+,{"stream_name":"stdout","time":209.774432174,"data":"\r  |                                                                       \r  |..........................................................       |  90%\n"}
+,{"stream_name":"stdout","time":209.774526377,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":209.774543526,"data":"\n"}
+,{"stream_name":"stdout","time":209.774686883,"data":"\r  |                                                                       \r  |...........................................................      |  90%\n"}
+,{"stream_name":"stdout","time":209.77591455499999,"data":"label: unnamed-chunk-77\n"}
+,{"stream_name":"stdout","time":212.700300423,"data":"\r  |                                                                       \r  |...........................................................      |  91%\n"}
+,{"stream_name":"stdout","time":212.700407612,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":212.700417078,"data":"\n"}
+,{"stream_name":"stdout","time":212.700648901,"data":"\n"}
+,{"stream_name":"stdout","time":212.701995451,"data":"label: unnamed-chunk-78\n"}
+,{"stream_name":"stdout","time":212.825372062,"data":"\r  |                                                                       \r  |............................................................     |  92%\n"}
+,{"stream_name":"stdout","time":212.825435523,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":212.825445724,"data":"\n"}
+,{"stream_name":"stdout","time":212.825665244,"data":"\n"}
+,{"stream_name":"stdout","time":212.826632087,"data":"label: unnamed-chunk-79\n"}
+,{"stream_name":"stdout","time":212.973836871,"data":"\r  |                                                                       \r  |............................................................     |  93%\n"}
+,{"stream_name":"stdout","time":212.974251523,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":212.97434193,"data":"\n"}
+,{"stream_name":"stdout","time":212.974464978,"data":"\r  |                                                                       \r  |.............................................................    |  94%\n"}
+,{"stream_name":"stdout","time":212.975347296,"data":"label: unnamed-chunk-80\n"}
+,{"stream_name":"stdout","time":212.983563989,"data":"\n"}
+,{"stream_name":"stdout","time":212.983849326,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":212.983881088,"data":"\n"}
+,{"stream_name":"stdout","time":212.98430877,"data":"\r  |                                                                       \r  |..............................................................   |  95%\n"}
+,{"stream_name":"stdout","time":212.985333995,"data":"label: unnamed-chunk-81\n"}
+,{"stream_name":"stdout","time":386.256711147,"data":"\n"}
+,{"stream_name":"stdout","time":386.256808594,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":386.256820405,"data":"\n"}
+,{"stream_name":"stdout","time":386.257257633,"data":"\r  |                                                                       \r  |..............................................................   |  96%\n"}
+,{"stream_name":"stdout","time":386.258460961,"data":"label: unnamed-chunk-82\n"}
+,{"stream_name":"stdout","time":430.949458143,"data":"\r  |                                                                       \r  |...............................................................  |  97%\n"}
+,{"stream_name":"stdout","time":430.949526143,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":430.949538149,"data":"\n"}
+,{"stream_name":"stdout","time":430.949662198,"data":"\n"}
+,{"stream_name":"stdout","time":430.950702957,"data":"label: unnamed-chunk-83 (with options) \n"}
+,{"stream_name":"stdout","time":430.951639152,"data":"List of 4\n"}
+,{"stream_name":"stdout","time":430.952275477,"data":" $ fig.align: chr \"default\"\n"}
+,{"stream_name":"stdout","time":430.953294023,"data":" $ warning  : logi FALSE\n"}
+,{"stream_name":"stdout","time":430.954225119,"data":" $ fig.cap  : chr \"Fig. 34\"\n"}
+,{"stream_name":"stdout","time":430.954997027,"data":" $ out.width: chr \"100%\"\n"}
+,{"stream_name":"stdout","time":430.95520859,"data":"\n"}
+,{"stream_name":"stdout","time":432.357259527,"data":"\r  |                                                                       \r  |...............................................................  |  98%\n"}
+,{"stream_name":"stdout","time":432.357376787,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":432.35741175,"data":"\n"}
+,{"stream_name":"stdout","time":432.357687357,"data":"\r  |                                                                       \r  |................................................................ |  98%\n"}
+,{"stream_name":"stdout","time":432.358979395,"data":"label: unnamed-chunk-84\n"}
+,{"stream_name":"stdout","time":432.938746546,"data":"\r  |                                                                       \r  |................................................................ |  99%\n"}
+,{"stream_name":"stdout","time":432.938838227,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":432.938847394,"data":"\n"}
+,{"stream_name":"stdout","time":432.939155163,"data":"\r  |                                                                       \r  |.................................................................|  99%\n"}
+,{"stream_name":"stdout","time":432.940869923,"data":"label: unnamed-chunk-85\n"}
+,{"stream_name":"stdout","time":433.029705603,"data":"\r  |                                                                       \r  |.................................................................| 100%\n"}
+,{"stream_name":"stdout","time":433.029780603,"data":"  ordinary text without R code\n"}
+,{"stream_name":"stdout","time":433.029793422,"data":"\n"}
+,{"stream_name":"stdout","time":433.041348182,"data":"\n"}
+,{"stream_name":"stderr","time":433.066842785,"data":"output file: /kaggle/working/script.knit.md\n"}
+,{"stream_name":"stderr","time":433.066905625,"data":"\n"}
+,{"stream_name":"stdout","time":433.24427377,"data":"/usr/local/bin/pandoc +RTS -K512m -RTS /kaggle/working/script.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /kaggle/working/__results__.html --smart --email-obfuscation none --standalone --section-divs --table-of-contents --toc-depth 3 --template /usr/local/lib/R/site-library/rmarkdown/rmd/h/default.html --highlight-style tango --number-sections --variable 'theme:cosmo' --include-in-header /tmp/RtmpmltKWV/rmarkdown-str74f0d9059.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=hide --variable code_menu=1 \n"}
+,{"stream_name":"stderr","time":434.659853989,"data":"\n"}
+,{"stream_name":"stderr","time":434.659899037,"data":"Output created: __results__.html\n"}
+,{"stream_name":"stderr","time":434.663492743,"data":"Warning messages:\n"}
+,{"stream_name":"stderr","time":434.663534286,"data":"1: Removed 1501 rows containing missing values (geom_point). \n"}
+,{"stream_name":"stderr","time":434.663543645,"data":"2: Removed 1501 rows containing missing values (geom_text). \n"}
+,{"stream_name":"stderr","time":434.663549527,"data":"3: Removed 582 rows containing missing values (geom_point). \n"}
+,{"stream_name":"stderr","time":434.663585983,"data":"4: Removed 582 rows containing missing values (geom_text). \n"}
+,{"stream_name":"stderr","time":434.663595688,"data":"5: In file.rename(from, to) :\n"}
+,{"stream_name":"stderr","time":434.663601333,"data":"  cannot rename file '/kaggle/working/__results___files/figure-html' to '/kaggle/working//kaggle/working/__results___files/figure-html', reason 'No such file or directory'\n"}
+,{"stream_name":"stderr","time":434.66536072,"data":"6: In file.rename(from, to) :\n"}
+,{"stream_name":"stderr","time":434.665397141,"data":"  cannot rename file '/kaggle/working//kaggle/working/__results___files/figure-html' to '/kaggle/working/__results___files/figure-html', reason 'No such file or directory'\n"}
+]
