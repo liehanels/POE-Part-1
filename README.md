@@ -15,7 +15,7 @@ This project is focused on implementing a Recurrent Neural Network (RNN) model. 
    ```
 2. Navigate to the project directory:
    ```
-   cd my-notebook-project
+   cd POE-Part-1
    ```
 3. Install the required packages:
    ```
